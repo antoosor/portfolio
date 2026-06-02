@@ -12,7 +12,9 @@
 
     color: var(--color-neutral);
     font-family: var(--fuente-cuerpo);
-    box-sizing: border-box;
+    box-sizing: border-box; 
+    margin: 0;
+    padding: 0;
 
 }
 
@@ -51,7 +53,7 @@
 
 .vista_principal {
     /* background-color: var(--color-fondo); */
-    width: 100vw;
+
     height: 100%;
 
     margin-left: 4em;
@@ -108,7 +110,7 @@
 .vista_sobre_mi {
     margin: 0;
 
-    width: 100vw;
+    width: 100%;
     height: 100%;
     background-color: #EEF4FF;
 
@@ -167,7 +169,7 @@
 
 .vista_proyectos {
   background: linear-gradient(to right, #F8F9FA, #EEF4FF);
-    width: 100vw;
+    width: 100%;
     height: 100%;
     /* background-color: yellow; */
 }
@@ -287,6 +289,7 @@
     padding-right: 4.18em;
     font-weight: 400;
     font-size: 1.12em;
+    padding-bottom: 1em;
 }
 .contenedor_hablemos_datos_contacto{
     width: 60%;
@@ -315,6 +318,7 @@
 }
 .txt_correo{
     font-weight: 600;
+    padding-bottom: 1em;
 }
 .icono-contacto{
     margin: auto;
@@ -322,9 +326,11 @@
 .txt_linkedin{
         font-size:.62em;
     font-weight: 400;
+
 }
 .txt_linkedin_url{
       font-weight: 600;
+      text-decoration: none;
 }
 .contenedor_formulario{
     width: 40%;
@@ -359,4 +365,8 @@ button{
     color: var(--color-fondo);
     padding: 1em;
     width: 100%;
+}
+body {
+  margin: 0;
+  padding: 0;
 }
