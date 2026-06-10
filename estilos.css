@@ -1,0 +1,458 @@
+:root {
+    --color-primario: #0052CC;
+    --color-secundario: #111827;
+    --color-terciario: #A33500;
+    --color-neutral: #4B5563;
+    --color-fondo: #F8F9FA;
+    --fuente-encabezado: "Hanken Grotesk", sans-serif;
+    --fuente-cuerpo: "Inter", sans-serif;
+}
+
+* {
+
+    color: var(--color-neutral);
+    font-family: var(--fuente-cuerpo);
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+
+}
+
+/*-----------Barra de navegación---------------------------*/
+
+.bar_nav {
+
+    text-align: right;
+    padding-right: 7%;
+    padding-top: 2%;
+    padding-bottom: 1em;
+}
+
+.bar_nav>a {
+    text-decoration: none;
+    padding-left: 1em;
+    font-size: 1.1em;
+    padding-right: 1em;
+}
+
+.bar_nav>a.hablemos {
+    background: #0052CC;
+    color: var(--color-fondo);
+    padding-right: 1em;
+    padding-top: .5em;
+    padding-bottom: .5em;
+    border-radius: 5px;
+}
+
+.linea_nav {
+    height: 1px;
+    background-color: rgb(225, 225, 225);
+}
+
+/*-----------Vista principaln---------------------------*/
+
+.vista_principal {
+    /* background-color: var(--color-fondo); */
+
+    height: 100%;
+
+    margin-left: 4em;
+    margin-bottom: 10.48em;
+}
+
+.txt_disponibilidad {
+    display: inline-block;
+    margin-top: 10.48em;
+    margin-bottom: 2em;
+    font-size: .87em;
+    background-color: #E5EEFF;
+    padding: 6px 12px 6px 29px;
+    color: #434654;
+}
+
+.txt_principal {
+    margin: 0;
+    width: 60%;
+    font-family: var(--fuente-encabezado);
+    font-size: 4em;
+    font-weight: 800;
+    color: var(--color-secundario);
+}
+
+.span_txt_principal {
+    color: var(--color-primario);
+}
+
+.txt_secundario {
+    font-size: 1.12em;
+    width: 50.2%;
+    font-weight: 400;
+    margin-bottom: 3.03em;
+}
+
+.btn_ver_proyectos {
+    background-color: var(--color-primario);
+    color: var(--color-fondo);
+    border: none;
+    padding: 1em 2.5em;
+    text-decoration: none;
+
+
+}
+
+.vista_principal .contactar_proyecto {
+    color: #003D9B;
+    text-decoration: none;
+    padding: 1em 1.5em;
+}
+
+/*-----------------------------vista sobre mí-------------*/
+.vista_sobre_mi {
+    margin: 0;
+
+    width: 100%;
+    height: 100%;
+    background-color: #EEF4FF;
+
+}
+
+.contenedor_txt_sobre_mi {
+    display: inline-block;
+    margin-left: 4em;
+    width: 40%;
+    padding-top: 6em;
+    padding-right: 3em;
+    padding-bottom: 6em;
+
+
+}
+
+.txt_sobre_mi {
+    font-family: var(--fuente-encabezado);
+    font-weight: 600;
+    color: var(--color-secundario);
+    font-size: 2em;
+}
+
+.contenedor_habilidades_tecnicas {
+
+    display: inline-block;
+    width: 35%;
+
+}
+
+.txt_habilidades_tecnicas {
+    margin: 0;
+    padding-top: 6em;
+    font-weight: 600;
+    font-size: .87em;
+}
+
+.lista_habilidades_tec {
+    list-style: none;
+}
+
+.lista_item {
+    background-color: var(--color-fondo);
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 1em;
+
+}
+
+.lista_habilidades_tec {
+    padding: 0;
+}
+
+
+/*-----------------proyectos | cards ------------------*/
+
+.vista_proyectos {
+    background: linear-gradient(to right, #F8F9FA, #EEF4FF);
+    width: 100%;
+    height: 100%;
+    /* background-color: yellow; */
+}
+
+.contenedor_txt_proyectos {
+    padding-top: 7.9em;
+    padding-left: 4em;
+}
+
+.txt_proyectos {
+    font-family: var(--fuente-encabezado);
+    font-weight: 600;
+    font-size: 2em;
+}
+
+.txt_proyectos_desc {
+    font-weight: 400;
+    font-size: 1em;
+}
+
+.contenedor_cards {
+
+    padding: 4em;
+    text-align: center;
+}
+
+.txt_proyectos_cards_cargo {
+    margin-top: 1em;
+    padding-left: .5em;
+}
+
+.txt_proyectos_card {
+    margin-top: .5em;
+    padding-left: .5em;
+}
+
+.txt_ver_mas_cards {
+    margin: 0 auto;
+    margin-top: 1em;
+    display: block;
+    width: 8em;
+    text-align: center;
+    padding: .5em 0;
+    text-decoration: none;
+    background: var(--color-primario);
+    color: var(--color-fondo);
+    border-radius: 5px;
+}
+
+.contenedor_txt_card_descripcion {
+    width: 100%;
+    height: 160px;
+}
+
+.contenedor_btn_ver_mas {
+    display: block;
+    height: 5em;
+}
+
+.card1 {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 600px;
+    background: #eee9e9;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    border-radius: 5px;
+    margin: 12px;
+    text-align: left;
+    box-shadow: 10px 10px 15px 0 #1a1a1a70;
+}
+
+.card2 {
+    display: inline-block;
+    vertical-align: top;
+    width: 350px;
+    height: 600px;
+    background: #eee9e9;
+    border: 1px solid #e0e0e0;
+    border-radius: 12px;
+    border-radius: 5px;
+    margin: 12px;
+    text-align: left;
+    box-shadow: 10px 10px 15px 0 #1a1a1a70;
+
+}
+
+.card3 {
+    display: inline-block;
+    vertical-align: top;
+    margin: 0 auto;
+    width: 350px;
+    height: 600px;
+    background: #eee9e9;
+    border: 1px solid #e0e0e0;
+    border-radius: 5px;
+    margin: 12px;
+    text-align: left;
+    box-shadow: 10px 10px 15px 0 #1a1a1a70;
+
+}
+
+.card_imagen {
+    width: 100%;
+    height: 160px;
+    object-fit: cover;
+    display: block;
+    border-radius: 10px 10px 0 0;
+}
+
+.lista_cards_tegnologias {
+    list-style: none;
+    width: 100%;
+    height: 12em;
+}
+
+
+.item_card {
+    background-color: var(--color-fondo);
+    display: inline-block;
+    padding: 8px 16px;
+    margin: 1em;
+    font-size: .7em;
+
+}
+
+/*----------------- Vista hablemos-----------------*/
+.contenedor_txt_hablemos {
+    display: inline-block;
+    width: 40%;
+    height: 100%;
+    padding-top: 13.55em;
+    padding-left: 4em;
+}
+
+.txt_hablemos {
+    font-family: var(--fuente-encabezado);
+    font-weight: 700;
+    font-size: 3em;
+}
+
+.txt_hablemos_descripcion {
+    padding-right: 4.18em;
+    font-weight: 400;
+    font-size: 1.12em;
+    padding-bottom: 1em;
+}
+
+.contenedor_hablemos_datos_contacto {
+    width: 60%;
+    text-align: center;
+    /* background-color: red; */
+
+}
+
+.icono-contacto {
+    background-color: #E8F0FE;
+    /* azul claro */
+    width: 40px;
+    height: 40px;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icono-contacto i {
+    color: #1A1A1A;
+    /* color del ícono */
+    font-size: 28px;
+}
+
+.txt_email {
+    font-size: .62em;
+    font-weight: 400;
+}
+
+.txt_correo {
+    font-weight: 600;
+    padding-bottom: 1em;
+}
+
+.icono-contacto {
+    margin: auto;
+}
+
+.txt_linkedin {
+    font-size: .62em;
+    font-weight: 400;
+    text-decoration: none;
+}
+
+.txt_linkedin_url {
+    font-weight: 600;
+    text-decoration: none;
+}
+
+.contenedor_formulario {
+    width: 40%;
+    height: 100%;
+    display: inline-block;
+    padding: 2em;
+}
+
+label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 1em;
+    margin-top: 1em;
+}
+
+.caja_texto {
+    padding: 1em;
+    display: block;
+    width: 100%;
+    background: #E8F0FE;
+    border: 1px solid #E8F0FE;
+    border-radius: 2px;
+}
+
+textarea {
+    width: 100%;
+    height: 100px;
+    padding: 1em;
+    background: #E8F0FE;
+    border: 1px solid #E8F0FE;
+    border-radius: 2px;
+    margin-bottom: 1em;
+}
+
+button {
+    background-color: var(--color-primario);
+    color: var(--color-fondo);
+    padding: 1em;
+    width: 100%;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+/*-----------------------Footer-----------------------------------*/
+footer {
+    display: flex;
+    align-items: center;
+    background: #EEF4FF;
+    width: 100%;
+    height: 150px;
+}
+
+.content-footer-txt {
+
+    width: 60%;
+    margin-left: 6.5em;
+    padding-top: 2.9em;
+
+
+
+}
+
+.nombre_footer {
+    display: block;
+    font-family: var(--fuente-encabezado);
+    margin-bottom: .5em;
+}
+
+.txt_footer {
+    display: block;
+}
+
+.enlaces-footer {
+
+    text-align: right;
+    margin-right: .5em;
+    font-weight: 400;
+    margin-left: 8.5em;
+    margin-top: 1.5em;
+
+}
+
+.enlace-foot {
+    padding-right: 1em;
+    text-decoration: none;
+}
