@@ -4,243 +4,236 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portafolio</title>
-    <link rel="stylesheet" href="./CSS/estilos.css">
+    <title>Antonio Osornio — Front-End Developer & Customer Success</title>
+    <meta name="description"
+        content="Antonio Osornio, profesional con más de 9 años en soporte técnico y Customer Success, en transición hacia el desarrollo Front-End. Portafolio de proyectos y contacto.">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap"
+    <link
+        href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,400..900;1,400..900&family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+
+    <link rel="stylesheet" href="css/estilos.css">
+
+    <!-- Esto es por parte del boot de IA implementado  -->
+
+
+    <script src="https://cdn.botpress.cloud/webchat/v3.7/inject.js"></script>
+    <script src="https://files.bpcontent.cloud/2026/06/22/18/20260622182845-RKID7KA2.js" defer></script>
     
-    <script src="https://cdn.botpress.cloud/webchat/v3.6/inject.js"></script>
-<script src="https://files.bpcontent.cloud/2026/06/22/18/20260622182845-RKID7KA2.js" defer></script>
-    
+    <!-- ------------------------------------------------------------- -->
 </head>
 
 <body>
-    <header class="contenedor_header">
-        <nav class="bar_nav">
-            <a href=#sobre_mi class="sobre_mi">Sobre mí</a>
-            <a href=#proyectos class="proyectos">Proyectos</a>
-            <!-- <a href= class="experiencia">Experiencia</a> -->
-            <a href=#hablemos class="hablemos">Hablemos</a>
+    <a class="skip-link" href="#contenido">Saltar al contenido</a>
 
-        </nav>
-        <hr class="linea_nav">
+    <header class="header" id="header">
+        <div class="header__inner">
+            <a href="#inicio" class="logo" aria-label="Ir al inicio">
+                AO<span class="logo__dot" aria-hidden="true"></span>
+            </a>
+
+            <button class="nav-toggle" id="navToggle" aria-expanded="false" aria-controls="navMenu"
+                aria-label="Abrir menú de navegación">
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+                <span class="nav-toggle__bar"></span>
+            </button>
+
+            <nav class="nav" id="navMenu" aria-label="Navegación principal">
+                <a href="#sobre-mi" class="nav__link">Sobre mí</a>
+                <a href="#proyectos" class="nav__link">Proyectos</a>
+                <a href="#hablemos" class="nav__link nav__link--cta">Hablemos</a>
+            </nav>
+        </div>
     </header>
-    <main>
-        <section class="vista_principal">
-            <p class="txt_disponibilidad"> 🟢Disponible para nuevos proyectos</p>
-            <p class="txt_principal">Transformando problemas técnicos en <span
-                    class="span_txt_principal">soluciones</span> claras y funcionales</p>
-            <p class="txt_secundario">Profesional con más de 9 años de experiencia en soporte técnico, atención al
-                cliente y Customer Success. Actualmente enfocado en el desarrollo Front-End, combinando experiencia
-                operativa con la creación de experiencias web funcionales y centradas en el usuario.</p>
-            <a href="#proyectos" class="btn_ver_proyectos">Ver proyectos</a>
-                <a href=#hablemos class="contactar_proyecto">Contactar para proyecto →</a>
-        </section>
 
-        <section class="vista_sobre_mi" id="sobre_mi">
-            <div class="contenedor_txt_sobre_mi">
-                <h2 class="txt_sobre_mi">Sobre mí</h2>
-                <p class="txt_sobre_mi_descripcion">Soy un profesional con más de 9 años de experiencia en soporte
-                    técnico, atención al cliente y Customer Success.
-
-                    A lo largo de mi carrera he trabajado resolviendo incidencias, optimizando procesos y colaborando
-                    con equipos multidisciplinarios para mejorar la experiencia de los usuarios y la eficiencia
-                    operativa.
-
-                    <br>
-                    Actualmente estoy expandiendo mi perfil profesional hacia el desarrollo Front-End, donde aplico la
-                    misma atención al detalle, pensamiento lógico y orientación al usuario que he desarrollado durante
-                    años en entornos tecnológicos.
-                    <br><br>
-                    Creo que la mejor tecnología es aquella que resuelve problemas reales de forma clara, eficiente y
-                    accesible.
+    <main id="contenido">
+        <!-- ============ HERO ============ -->
+        <section class="hero" id="inicio">
+            <div class="hero__text" data-reveal>
+                <p class="badge">
+                    <span class="badge__dot" aria-hidden="true"></span>
+                    Disponible para nuevos proyectos
                 </p>
-            </div>
-            <div class="contenedor_habilidades_tecnicas">
-                <h2 class="txt_habilidades_tecnicas">HABILIDADES TECNICAS</h2>
-                <section class="skills">
-                    <ul class="lista_habilidades_tec">
-                        <li class="lista_item">HTML</li>
-                        <li class="lista_item">CSS</li>
-                        <li class="lista_item">JavaScript</li>
-                        <li class="lista_item">SQL</li>
-                        <li class="lista_item">Python</li>
-                        <li class="lista_item">Creación de flujos</li>
-                        <li class="lista_item">VPN</li>
-                        <li class="lista_item">Soporte Remoto</li>
-                        <li class="lista_item">Gestión de Incidentes</li>
-                        <li class="lista_item">Resolución de Problemas</li>
-                        <li class="lista_item">Documentación Técnica</li>
-                        <li class="lista_item">Google Workspace</li>
-                        <li class="lista_item">Slack</li>
-                        <li class="lista_item">Freshdesk</li>
-                        <li class="lista_item">HubSpot</li>
-                        <li class="lista_item">Asana</li>
-                        <li class="lista_item">Lucidchart</li>
-                        <li class="lista_item">Zendesk</li>
-                        <li class="lista_item">Zoom</li>
+                <h1 class="hero__title">
+                    Transformando problemas técnicos en <span class="hero__title--accent">soluciones</span> claras y
+                    funcionales
+                </h1>
+                <p class="hero__subtitle">
+                    Profesional con más de 9 años de experiencia en soporte técnico, atención al cliente y Customer
+                    Success. Actualmente especializado en análisis de datos y desarrollo Front-End, creando soluciones
+                    centradas en el usuario e impulsadas por datos.
 
 
-                    </ul>
-                </section>
-
-            </div>
-        </section>
-        <section class="vista_proyectos" id="proyectos">
-            <div class="contenedor_txt_proyectos">
-                <h2 class="txt_proyectos">Experiencia profesional y proyectos destacados</h2>
-                <p class="txt_proyectos_desc">Una muestra de retos técnicos y soluciones visuales.</p>
-            </div>
-            <div class="contenedor_cards">
-                <div class="card1">
-                    <img src="./img/logo_Eden.jpg" alt="logo eden" class="card_imagen">
-
-
-                    <ul class="lista_cards_tegnologias">
-                        <li class="item_card">Teleport</li>
-                        <li class="item_card">HTML</li>
-                        <li class="item_card">CSS</li>
-                        <li class="item_card">Slack</li>
-                        <li class="item_card">Zoom</li>
-                        <li class="item_card">VPN</li>
-                        <li class="item_card">Zendesk</li>
-                        <li class="item_card">Google Workspace</li>
-                        <li class="item_card">Freshdesk</li>
-                        <li class="item_card">Lucidchart</li>
-
-                    </ul>
-                    <div class="contenedor_txt_card_descripcion">
-
-                        <h3 class="txt_proyectos_cards_cargo">Eden | Customer Support Lead</h3>
-                        <p class="txt_proyectos_card"> Lideré iniciativas de soporte técnico y optimización de procesos,
-                            colaborando con distintos equipos para mejorar la experiencia del cliente y la eficiencia
-                            operativa.
-
-                            Participé en la documentación de procesos, resolución de incidencias y coordinación de
-                            actividades que contribuyeron a un servicio más consistente y escalable.
-                        </p>
-
-                    </div>
-                    <div class="contenedor_btn_ver_mas">
-
-                        <a href="" class="txt_ver_mas_cards">Ver más </a>
-                    </div>
-                </div>
-                <div class="card2">
-                    <img src="./img/logo_rookmotion.jpg" alt="logo rookmotion" class="card_imagen">
-
-                    <ul class="lista_cards_tegnologias">
-                        <li class="item_card">Lucichard</li>
-                        <li class="item_card">Asana</li>
-                        <li class="item_card">Slack</li>
-                        <li class="item_card">Zoom</li>
-                        <li class="item_card">Zendesk</li>
-                        <li class="item_card">Google Workspace</li>
-                        <li class="item_card">HubSpot</li>
-                    </ul>
-                    <div class="contenedor_txt_card_descripcion">
-
-                        <h3 class="txt_proyectos_cards_cargo">RookMotion | Customer Support y Customer Success</h3>
-                        <p class="txt_proyectos_card">
-                            Brindé acompañamiento a clientes y fuí contribuyendo a la mejora continua de procesos
-                            internos.
-
-                            Utilicé diversas herramientas para dar seguimiento a solicitudes,
-                            fortalecer la comunicación y optimizar la experiencia del usuario.</p>
-                    </div>
-                    <div class="contenedor_btn_ver_mas">
-
-                        <a href="" class="txt_ver_mas_cards">Ver más </a>
-                    </div>
-                </div>
-                <div class="card3">
-                    <img src="./img/logo_spa_oasis.jpg" alt="logo spa oasis" class="card_imagen">
-
-                    <ul class="lista_cards_tegnologias">
-                        <li class="item_card">HTML</li>
-                        <li class="item_card">CSS</li>
-                        <li class="item_card">JavaScript</li>
-                        <li class="item_card">Stitch IA</li>
-                    </ul>
-                    <div class="contenedor_txt_card_descripcion">
-
-                        <h3 class="txt_proyectos_cards_cargo">Spa Oasis | Desarrollador web</h3>
-                        <p class="txt_proyectos_card">Desarrollé mi primera página web aplicando conceptos básicos de
-                            HTML,
-                            CSS y JavaScript.
-                            Este proyecto marcó el inicio de mi camino en el mundo del desarrollo web.</p>
-                    </div>
-                    <div class="contenedor_btn_ver_mas">
-
-                        <a href="" class="txt_ver_mas_cards">Ver más </a>
-                    </div>
-
-                </div>
-            </div>
-
-        </section>
-        <section class="vista_hablemos" id="hablemos">
-            <div class="contenedor_txt_hablemos">
-                <h2 class="txt_hablemos">¡Hablemos!</h2>
-                <p class="txt_hablemos_descripcion">
-                    ¿Buscas apoyo en soporte técnico, experiencia del cliente o desarrollo web?
-
-                    Estoy abierto a nuevas oportunidades profesionales, colaboraciones y proyectos donde pueda aportar
-                    valor a través de mi experiencia técnica y mi crecimiento continuo como desarrollador Front-End.
                 </p>
-                <div class="contenedor_hablemos_datos_contacto">
-                    <div class="icono-contacto">
-                        <i class="fa-regular fa-envelope"></i>
-                    </div>
-                    <p class="txt_email">EMAIL</p>
-                    <p class="txt_correo">a.osornio@outlook.com</p>
-                    <div class="icono-contacto">
-                        <i class="fa-brands fa-linkedin"></i>
-                    </div>
-                    <p class="txt_linkedin">LINKEDIN</p>
-                    <a href="https://www.linkedin.com/in/antonio-osornio"
-                        class="txt_linkedin_url">www.linkedin.com/in/antonio-osornio</a>
-
-
+                <div class="hero__actions">
+                    <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+                    <a href="#hablemos" class="btn btn--ghost">Contactar para proyecto <span
+                            aria-hidden="true">→</span></a>
                 </div>
             </div>
 
-            <div class="contenedor_formulario">
-                <form action="" class="formulario_hablemos">
-                    <label for="nombre">Nombre</label>
-                    <input class="caja_texto" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre">
-                    <label for="correo">Correo Electrónico</label>
-                    <input class="caja_texto" type="text" id="correo" name="correo" placeholder="ejemplo@gmail.com">
-                    <label for="mensaje">Mensaje</label>
-                    <textarea id="mensaje" name="mensaje" placeholder="Cuéntame sobre tu proyecto..."></textarea>
-                    <button>Enviar mensaje</button>
+            <div class="hero__graphic" aria-hidden="true">
+                <svg class="signal" viewBox="0 0 480 260" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <line x1="20" y1="130" x2="460" y2="130" class="signal__baseline" />
+                    <path class="signal__trace"
+                        d="M20,130 L45,130 L58,80 L70,175 L85,60 L98,190 L112,130 L150,130 L165,105 L180,150 L195,130 C 250,130 260,60 300,60 C 340,60 350,130 460,130"
+                        pathLength="1000" />
+                    <circle class="signal__dot" cx="460" cy="130" r="7" />
+                </svg>
+                <p class="signal__caption">De la incidencia a la solución</p>
+            </div>
+        </section>
+
+        <!-- ============ SOBRE MÍ ============ -->
+        <section class="section section--alt" id="sobre-mi">
+            <div class="section__inner about">
+                <div class="about__bio" data-reveal>
+                    <p class="eyebrow">Sobre mí</p>
+                    <h2 class="section__title">De resolver incidencias a construir interfaces</h2>
+                    <p class="about__text">
+                        Soy un profesional con más de 9 años de experiencia en soporte técnico, atención al cliente y
+                        Customer Success. A lo largo de mi carrera he trabajado resolviendo incidencias, optimizando
+                        procesos y colaborando con equipos multidisciplinarios para mejorar la experiencia de los
+                        usuarios y la eficiencia operativa.
+                    </p>
+                    <p class="about__text">
+                        Actualmente estoy expandiendo mi perfil profesional hacia el desarrollo Front-End, donde
+                        aplico la misma atención al detalle, pensamiento lógico y orientación al usuario que he
+                        desarrollado durante años en entornos tecnológicos.
+                    </p>
+                    <p class="about__text about__text--highlight">
+                        Creo que la mejor tecnología es aquella que resuelve problemas reales de forma clara,
+                        eficiente y accesible.
+                    </p>
+                </div>
+
+                <div class="about__skills" data-reveal>
+                    <p class="eyebrow">Habilidades técnicas</p>
+                    <ul class="chips" id="skillsList">
+                        <li class="chip">HTML</li>
+                        <li class="chip">CSS</li>
+                        <li class="chip">JavaScript</li>
+                        <li class="chip">SQL</li>
+                        <li class="chip">Python</li>
+                        <li class="chip">Creación de flujos</li>
+                        <li class="chip">VPN</li>
+                        <li class="chip">Soporte remoto</li>
+                        <li class="chip">Gestión de incidentes</li>
+                        <li class="chip">Resolución de problemas</li>
+                        <li class="chip">Documentación técnica</li>
+                        <li class="chip">Google Workspace</li>
+                        <li class="chip">Slack</li>
+                        <li class="chip">Freshdesk</li>
+                        <li class="chip">HubSpot</li>
+                        <li class="chip">Asana</li>
+                        <li class="chip">Lucidchart</li>
+                        <li class="chip">Zendesk</li>
+                        <li class="chip">Zoom</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ PROYECTOS ============ -->
+        <section class="section" id="proyectos">
+            <div class="section__inner">
+                <div class="section__header" data-reveal>
+                    <p class="eyebrow">Proyectos</p>
+                    <h2 class="section__title">Experiencia profesional y proyectos destacados</h2>
+                    <p class="section__subtitle">Una muestra de retos técnicos y soluciones visuales.</p>
+                </div>
+
+                <div class="cards" id="cardsGrid" data-reveal>
+                    <!-- Las tarjetas se generan dinámicamente desde js/script.js -->
+                    <noscript>
+                        <p>Activa JavaScript para ver el listado completo de proyectos.</p>
+                    </noscript>
+                </div>
+            </div>
+        </section>
+
+        <!-- ============ HABLEMOS ============ -->
+        <section class="section section--alt" id="hablemos">
+            <div class="section__inner contact">
+                <div class="contact__info" data-reveal>
+                    <p class="eyebrow">Contacto</p>
+                    <h2 class="section__title">¡Hablemos!</h2>
+                    <p class="contact__text">
+                        ¿Buscas apoyo en soporte técnico, experiencia del cliente o desarrollo web? Estoy abierto a
+                        nuevas oportunidades profesionales, colaboraciones y proyectos donde pueda aportar valor a
+                        través de mi experiencia técnica y mi crecimiento continuo como desarrollador Front-End.
+                    </p>
+
+                    <ul class="contact__list">
+                        <li class="contact__item">
+                            <span class="contact__icon" aria-hidden="true"><i class="fa-regular fa-envelope"></i></span>
+                            <span>
+                                <span class="contact__label">Email</span>
+                                <a class="contact__value" href="mailto:a.osornio@outlook.com">a.osornio@outlook.com</a>
+                            </span>
+                        </li>
+                        <li class="contact__item">
+                            <span class="contact__icon" aria-hidden="true"><i class="fa-brands fa-linkedin"></i></span>
+                            <span>
+                                <span class="contact__label">LinkedIn</span>
+                                <a class="contact__value" href="https://www.linkedin.com/in/antonio-osornio"
+                                    target="_blank" rel="noopener">linkedin.com/in/antonio-osornio</a>
+                            </span>
+                        </li>
+                    </ul>
+                </div>
+
+                <form class="form" id="contactForm" data-reveal novalidate>
+                    <div class="form__field">
+                        <label for="nombre">Nombre</label>
+                        <input class="form__input" type="text" id="nombre" name="nombre" placeholder="Escribe tu nombre"
+                            autocomplete="name" required>
+                        <span class="form__error" id="nombreError" role="alert"></span>
+                    </div>
+
+                    <div class="form__field">
+                        <label for="correo">Correo electrónico</label>
+                        <input class="form__input" type="email" id="correo" name="correo"
+                            placeholder="ejemplo@gmail.com" autocomplete="email" required>
+                        <span class="form__error" id="correoError" role="alert"></span>
+                    </div>
+
+                    <div class="form__field">
+                        <label for="mensaje">Mensaje</label>
+                        <textarea class="form__input form__input--area" id="mensaje" name="mensaje"
+                            placeholder="Cuéntame sobre tu proyecto..." required></textarea>
+                        <span class="form__error" id="mensajeError" role="alert"></span>
+                    </div>
+
+                    <button type="submit" class="btn btn--primary btn--block">
+                        <span id="submitLabel">Enviar mensaje</span>
+                    </button>
+                    <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
                 </form>
             </div>
-
-
-
-
         </section>
     </main>
-    <footer>
-        <section class="content-footer-txt">
 
-            <h2 class="nombre_footer">Antonio Osornio</h2>
-            <p class="txt_footer">
-               © 2026 Antonio Osornio. Aprendiendo, construyendo y mejorando cada día.
-            </p>
-        </section>
-        <section class="enlaces-footer">
-            <a href="" class="enlace-foot">LinkedIn</a>
-            <a href="" class="enlace-foot">GitHub</a>
-            <a href="" class="enlace-foot">Email</a>
-        </section>
-
+    <footer class="footer">
+        <div class="footer__inner">
+            <div class="footer__brand">
+                <h2 class="footer__name">Antonio Osornio</h2>
+                <p class="footer__text">© 2026 Antonio Osornio. Aprendiendo, construyendo y mejorando cada día.</p>
+            </div>
+            <nav class="footer__links" aria-label="Enlaces de contacto">
+                <a class="footer__link" href="https://www.linkedin.com/in/antonio-osornio" target="_blank"
+                    rel="noopener">LinkedIn</a>
+                <a class="footer__link" href="#" target="_blank" rel="noopener">GitHub</a>
+                <a class="footer__link" href="mailto:a.osornio@outlook.com">Email</a>
+            </nav>
+        </div>
     </footer>
 
+    <script src="js/script.js" defer></script>
 </body>
 
 </html>
