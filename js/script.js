@@ -8,7 +8,7 @@
             alt: "Logo de Eden",
             cargo: "Eden | Customer Support Lead",
             tags: ["Teleport", "HTML", "CSS", "Slack", "Zoom", "VPN", "Zendesk", "Google Workspace", "Freshdesk", "Lucidchart"],
-            desc: "Lideré iniciativas de soporte técnico y optimización de procesos, colaborando con distintos equipos para mejorar la experiencia del cliente y la eficiencia operativa. Participé en la documentación de procesos, resolución de incidencias y coordinación de actividades que contribuyeron a un servicio más consistente y escalable.",
+            desc: "Lideré iniciativas de soporte técnico y mejora de procesos, documentando procedimientos, gestionando incidencias críticas y coordinando la colaboración entre equipos de soporte, ingeniería y operaciones para ofrecer un servicio más eficiente, consistente y escalable.",
             link: "#"
         },
         {
@@ -16,7 +16,7 @@
             alt: "Logo de RookMotion",
             cargo: "RookMotion | Customer Support y Customer Success",
             tags: ["Lucidchart", "Asana", "Slack", "Zoom", "Zendesk", "Google Workspace", "HubSpot"],
-            desc: "Brindé acompañamiento a clientes y fui contribuyendo a la mejora continua de procesos internos. Utilicé diversas herramientas para dar seguimiento a solicitudes, fortalecer la comunicación y optimizar la experiencia del usuario.",
+            desc: "Garanticé la satisfacción del cliente en escenarios complejos y transformé procesos internos mediante iniciativas de mejora continua.",
             link: "#"
         },
         {
@@ -24,7 +24,7 @@
             alt: "Logo de Spa Oasis",
             cargo: "Spa Oasis | Desarrollador web",
             tags: ["HTML", "CSS", "JavaScript", "Stitch IA"],
-            desc: "Desarrollé mi primera página web aplicando conceptos básicos de HTML, CSS y JavaScript. Este proyecto marcó el inicio de mi camino en el mundo del desarrollo web.",
+            desc: "Desarrollé un sitio web aplicando HTML, CSS y JavaScript para construir una interfaz funcional y responsive, fortaleciendo mis fundamentos en desarrollo web.",
             link: "#"
         }
     ];
